@@ -2,11 +2,11 @@
 
 int main() {
     // Variáveis da carta 1
-    int populacao1, pontos1;
+    int populacao1, pontost1;
     float area1, pib1;
 
     // Variáveis da carta 2
-    int populacao2, pontos2;
+    int populacao2, pontost2;
     float area2, pib2;
 
     // Cadastro da carta 1
@@ -21,7 +21,7 @@ int main() {
     scanf("%f", &pib1);
 
     printf("Digite o numero de pontos turisticos: ");
-    scanf("%d", &pontos1);
+    scanf("%d", &pontost1);
 
     // Cadastro da carta 2
     printf("\nCadastro da Carta 2:\n");
@@ -35,7 +35,7 @@ int main() {
     scanf("%f", &pib2);
 
     printf("Digite o numero de pontos turisticos: ");
-    scanf("%d", &pontos2);
+    scanf("%d", &pontost2);
 
     // Exibir os dados
     printf("\n===== Dados das Cartas =====\n");
@@ -44,13 +44,13 @@ int main() {
     printf("Populacao: %d\n", populacao1);
     printf("Area: %.2f km²\n", area1);
     printf("PIB: %.2f bilhões\n", pib1);
-    printf("Pontos Turisticos: %d\n", pontos1);
+    printf("Pontos Turisticos: %d\n", pontost1);
 
     printf("\nCarta 2:\n");
     printf("Populacao: %d\n", populacao2);
     printf("Area: %.2f km²\n", area2);
     printf("PIB: %.2f bilhões\n", pib2);
-    printf("Pontos Turisticos: %d\n", pontos2);
+    printf("Pontos Turisticos: %d\n", pontost2);
 
     return 0;
 }
